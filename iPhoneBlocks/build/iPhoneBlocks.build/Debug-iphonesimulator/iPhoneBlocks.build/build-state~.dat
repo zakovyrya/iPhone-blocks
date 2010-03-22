@@ -1,0 +1,879 @@
+TiPhoneBlocks
+v7
+r0
+t274149335.941341
+cCheck dependencies
+cProcessInfoPlistFile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/Info.plist iPhoneBlocks-Info.plist
+cCompileXIB /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/MainWindow.xib
+cCompileXIB /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/RootViewController.xib
+cProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch.gch iPhoneBlocks_Prefix.pch normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+cCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+cCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+cCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+cCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+cCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/RootViewController.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+cCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/AlertViewAdditions.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+cLd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks normal i386
+cGenerateDSYMFile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app.dSYM /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks
+cTouch /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004A9828D600000000000000EE
+t1251485910
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026EE80
+t1242278438
+s2551424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000261F90
+t1242278711
+s2498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001434100
+t1242349407
+s21184768
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../NavController.m
+c000000004AA600A00000000000000FF3
+t1252393120
+s4083
+i"NavController.h"
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m
+c000000004AA6F8470000000000001301
+t1252456519
+s4865
+i"RootViewController.h"
+i"AlertViewAdditions.h"
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.h
+c000000004AA6B959000000000000008D
+t1252440409
+s141
+i<UIKit/UIKit.h>
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m
+c000000004AA6F0970000000000000401
+t1252454551
+s1025
+i"AlertViewAdditions.h"
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.h
+c000000004AA60A3D0000000000000048
+t1252395581
+s72
+i<UIKit/UIKit.h>
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.m
+c000000004AA60A1E0000000000000056
+t1252395550
+s86
+i"AlertWindowAdditions.h"
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.h
+c000000004AA5CEBB0000000000000350
+t1252380347
+s848
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m
+c000000004AA5EE830000000000000981
+t1252388483
+s2433
+i"BlocksAdditions.h"
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.h
+c000000004AA6062D000000000000015D
+t1252394541
+s349
+i<UIKit/UIKit.h>
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m
+c000000004AA6062D00000000000001F1
+t1252394541
+s497
+i"iPhoneBlocksAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.h
+c000000004AA5EE63000000000000005E
+t1252388451
+s94
+i<UIKit/UIKit.h>
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m
+c000000004AA5EE61000000000000052C
+t1252388449
+s1324
+i"iPhoneBlocksViewController.h"
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/MainWindow.xib
+c000000004AA606CA000000000000590E
+t1252394698
+s22798
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/NavController.h
+c000000004AA600A40000000000000056
+t1252393124
+s86
+i<UIKit/UIKit.h>
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/NavController.m
+c000000004AA60084000000000000108C
+t1252393092
+s4236
+i"NavController.h"
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/NavController.xib
+c000000004AA601F700000000000043E3
+t1252393463
+s17379
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/PLBlocks.framework
+c000000004AA354F500000000000000CC
+t1252218101
+s204
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/PLBlocks.framework/PLBlocks
+c000000004AA354F5000000000001A00C
+t1252218101
+s106508
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/RootViewController.h
+c000000004AA609710000000000000076
+t1252395377
+s118
+i<UIKit/UIKit.h>
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/RootViewController.xib
+c000000004AA6072B00000000000045DE
+t1252394795
+s17886
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app
+t1252456535
+s238
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app.dSYM
+t1252456535
+s102
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/Frameworks/PLBlocks.framework
+t1252380539
+s204
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/Info.plist
+t1252456534
+s582
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/MainWindow.nib
+t1252456534
+s2017
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/NavController.nib
+t2
+s0
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/PkgInfo
+t1252456534
+s8
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/RootViewController.nib
+t1252456534
+s1386
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks
+t1252456535
+s42652
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocksViewController.nib
+t1252392961
+s1468
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/AlertViewAdditions.o
+t1252456535
+s21788
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/AlertWindowAdditions.o
+t2
+s0
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o
+t1252456535
+s22572
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/NavController.o
+t2
+s0
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/RootViewController.o
+t1252456535
+s42696
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocks.LinkFileList
+c000000004AA6F856000000000000037A
+t1252456534
+s890
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o
+t1252456535
+s41440
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o
+t1252456535
+s29944
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o
+t1252456535
+s6096
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/AlertViewAdditions.plist
+t2
+s0
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/BlocksAdditions.plist
+t1252439960
+s275
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/RootViewController.plist
+t1252439961
+s275
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/iPhoneBlocksAppDelegate.plist
+t1252439960
+s275
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/iPhoneBlocksViewController.plist
+t1252439960
+s275
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/main.plist
+t1252439960
+s275
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocksViewController.xib
+c000000004AA5FFF50000000000004406
+t1252392949
+s17414
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch
+c000000004AA4B5F700000000000000C1
+t1252308471
+s193
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m
+c000000004AA4B5F70000000000000175
+t1252308471
+s373
+i<UIKit/UIKit.h>
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-bccwwzygscckvwgqelwytsvfoqpl/iPhoneBlocks_Prefix.pch.gch
+t1252353766
+s8593536
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cryrcirbmcduklbszhmuwcengwhm/iPhoneBlocks_Prefix.pch.gch
+t1252353750
+s10032528
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cvnnmyxlczfkqifccyplwmboqasg/iPhoneBlocks_Prefix.pch.pth
+t1252370195
+s1700604
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch.pth
+t1252439960
+s1700600
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dcbzsypuwnwvptaslqwxpiljutqo/iPhoneBlocks_Prefix.pch.gch
+t1252380390
+s12957072
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-doxgqhdtwhjnefanpwjswpyjonni/iPhoneBlocks_Prefix.pch.gch
+t1252369737
+s12957072
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dsoppweyeyhfzmemickzedtcymwx/iPhoneBlocks_Prefix.pch.gch
+t1252369766
+s10032528
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-fjtjkhdvzbvqspbyexflzsnrxveh/iPhoneBlocks_Prefix.pch.gch
+t1252350068
+s12957072
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-fkyaszbyfjjhhtfbphedwioqogqc/iPhoneBlocks_Prefix.pch.gch
+t1252370643
+s8593536
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-gogeesvrstdblkceabdmnfagvrhd/iPhoneBlocks_Prefix.pch.pth
+t1252353712
+s1700272
+
+N/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch.gch
+t1252456535
+s8593536
+
+NiPhoneBlocks-Info.plist
+c000000004AA4B5F7000000000000038D
+t1252308471
+s909
+
+CAnalyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m
+s274132760.952259
+e274132761.060737
+r1
+xAnalyze
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m
+lSLF07#2@81"Analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m274132760#274132761#0(0"0(0#0#73"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m4300882208#2091"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch --analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/RootViewController.plist0#
+
+CAnalyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m
+s274132768.402736
+e274132768.436824
+r1
+xAnalyze
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m
+lSLF07#2@78"Analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m274132768#274132768#0(0"0(0#0#70"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m4300882208#2088"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch --analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/AlertViewAdditions.plist0#
+
+CAnalyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m
+s274132760.911594
+e274132760.988355
+r1
+xAnalyze
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m
+lSLF07#2@75"Analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m274132760#274132760#0(0"0(0#0#67"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m4300882208#2082"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch --analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/BlocksAdditions.plist0#
+
+CAnalyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m
+s274132760.812563
+e274132760.911165
+r1
+xAnalyze
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m
+lSLF07#2@83"Analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m274132760#274132760#0(0"0(0#0#75"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m4300882208#2098"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch --analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/iPhoneBlocksAppDelegate.plist0#
+
+CAnalyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m
+s274132760.887924
+e274132760.952146
+r1
+xAnalyze
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m
+lSLF07#2@86"Analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m274132760#274132760#0(0"0(0#0#78"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m4300882208#2104"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch --analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/iPhoneBlocksViewController.plist0#
+
+CAnalyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m
+s274132760.810999
+e274132760.887828
+r1
+xAnalyze
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m
+lSLF07#2@56"Analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m274132760#274132760#0(0"0(0#0#48"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m4300882208#2052"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch --analyze /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies274149334#274149334#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/AlertViewAdditions.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274149335.786457
+e274149335.864270
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/AlertViewAdditions.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m274149335#274149335#0(0"0(0#0#70"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m4300882208#2078"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertViewAdditions.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/AlertViewAdditions.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/AlertWindowAdditions.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274088382.691202
+e274088382.723823
+r0
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/AlertWindowAdditions.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.m
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+o/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.m:4: error: cannot find interface declaration for 'AlertWindow'
+lSLF07#2@80"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.m274088382#274088382#0(135"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.m:4: error: cannot find interface declaration for 'AlertWindow'1(4@51"Cannot find interface declaration for 'AlertWindow'274088382#0#135#0(6@72"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.m274088350#4#0#4#0#0"0(0#0#72"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.m4300882208#2082"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/AlertWindowAdditions.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/AlertWindowAdditions.o1#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s274073191.266920
+e274073191.437191
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m274073191#274073191#0(0"0(0#0#67"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m4300882208#2073"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dcbzsypuwnwvptaslqwxpiljutqo/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s274073205.489931
+e274073205.532314
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@75"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m274073205#274073205#0(0"0(0#0#67"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m4300882208#2109"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s274062567.083637
+e274062567.175514
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m: In function '+[NSURLConnection(BlocksAdditions) sendAsynchrounousRequest:onCompletionDo:]':
+o/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m:54: warning: conflicting types for '+(void)sendAsynchrounousRequest:(NSURLConnection *)request onCompletionDo:( *)block'
+o/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.h:25: warning: previous declaration of '+(void)sendAsynchrounousRequest:(NSURLConnection *)request onCompletionDo:( *)block'
+o/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m: In function '__+[NSURLConnection(BlocksAdditions) sendAsynchrounousRequest:onCompletionDo:]_block_invoke_2':
+o/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m:60: warning: incompatible Objective-C types 'struct NSURLConnection * const', expected 'struct NSURLRequest *' when passing argument 1 of 'sendSynchronousRequest:returningResponse:error:' from distinct Objective-C type
+lSLF07#2@75"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m274062567#274062567#0(1006"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m: In function '+[NSURLConnection(BlocksAdditions) sendAsynchrounousRequest:onCompletionDo:]':/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m:54: warning: conflicting types for '+(void)sendAsynchrounousRequest:(NSURLConnection *)request onCompletionDo:( *)block'/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.h:25: warning: previous declaration of '+(void)sendAsynchrounousRequest:(NSURLConnection *)request onCompletionDo:( *)block'/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m: In function '__+[NSURLConnection(BlocksAdditions) sendAsynchrounousRequest:onCompletionDo:]_block_invoke_2':/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m:60: warning: incompatible Objective-C types 'struct NSURLConnection * const', expected 'struct NSURLRequest *' when passing argument 1 of 'sendSynchronousRequest:returningResponse:error:' from distinct Objective-C type3(22@107"Conflicting types for '+(void)sendAsynchrounousRequest:(NSURLConnection *)request onCompletionDo:( *)block'274062567#161#189#0(6@67"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m274046742#54#0#54#0#25"conflicting types for '*'0(22@109"Previous declaration of '+(void)sendAsynchrounousRequest:(NSURLConnection *)request onCompletionDo:( *)block'274062567#350#191#0(6@67"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.h274042930#25#0#25#0#0"0(22@205"Incompatible Objective-C types 'struct NSURLConnection * const', expected 'struct NSURLRequest *' when passing argument 1 of 'sendSynchronousRequest:returningResponse:error:' from distinct Objective-C type274062567#719#287#0(6@67"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m274046742#60#0#60#0#0"0(0#0#67"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m4300882208#2128"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dsoppweyeyhfzmemickzedtcymwx/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274149335.671236
+e274149335.784082
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m274149335#274149335#0(0"0(0#0#67"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m4300882208#2072"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/BlocksAdditions.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/NavController.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../NavController.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+r0
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/NavController.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/NavController.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+r0
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/RootViewController.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274149335.752958
+e274149335.860221
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/RootViewController.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m274149335#274149335#0(0"0(0#0#73"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m4300882208#2081"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/../RootViewController.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s274073191.145771
+e274073191.266809
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m274073191#274073191#0(0"0(0#0#75"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m4300882208#2089"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dcbzsypuwnwvptaslqwxpiljutqo/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s274073205.390273
+e274073205.489706
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@83"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m274073205#274073205#0(0"0(0#0#75"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m4300882208#2125"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s274062566.827546
+e274062567.083535
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@83"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m274062566#274062567#0(0"0(0#0#75"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m4300882208#2144"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dsoppweyeyhfzmemickzedtcymwx/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274149335.576116
+e274149335.671152
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m274149335#274149335#0(0"0(0#0#75"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m4300882208#2088"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksAppDelegate.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksAppDelegate.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s274073191.240158
+e274073191.387877
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m274073191#274073191#0(0"0(0#0#78"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m4300882208#2095"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dcbzsypuwnwvptaslqwxpiljutqo/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s274073205.421957
+e274073205.500755
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@86"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m274073205#274073205#0(0"0(0#0#78"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m4300882208#2131"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s274062567.055272
+e274062567.184627
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@86"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m274062567#274062567#0(0"0(0#0#78"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m4300882208#2150"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dsoppweyeyhfzmemickzedtcymwx/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274149335.669809
+e274149335.752696
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m274149335#274149335#0(0"0(0#0#78"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m4300882208#2094"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/iPhoneBlocksViewController.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocksViewController.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s274073191.142870
+e274073191.240044
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m274073191#274073191#0(0"0(0#0#48"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m4300882208#2043"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dcbzsypuwnwvptaslqwxpiljutqo/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s274073205.388922
+e274073205.421652
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@56"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m274073205#274073205#0(0"0(0#0#48"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m4300882208#2079"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s274062566.826541
+e274062567.055160
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@56"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m274062566#274062567#0(0"0(0#0#48"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m4300882208#2098"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dsoppweyeyhfzmemickzedtcymwx/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o0#
+
+CCompileC build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274149335.575008
+e274149335.669699
+r1
+xCompileC
+xbuild/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m274149335#274149335#0(0"0(0#0#48"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m4300882208#2042"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -include /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/main.m -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/MainWindow.xib
+s274149334.293015
+e274149334.840010
+r1
+xCompileXIB
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib274149334#274149334#0(0"0(0#0#56"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/MainWindow.xib4300882208#445"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/MainWindow.nib /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/MainWindow.xib0#
+
+CCompileXIB /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/NavController.xib
+s274086364.738470
+e274086367.902361
+r1
+xCompileXIB
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/NavController.xib
+lSLF07#2@28"CompileXIB NavController.xib274086364#274086367#0(0"0(0#0#59"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/NavController.xib4300882208#451"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/NavController.nib /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/NavController.xib0#
+
+CCompileXIB /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/RootViewController.xib
+s274149334.293688
+e274149334.821061
+r1
+xCompileXIB
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib274149334#274149334#0(0"0(0#0#64"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/RootViewController.xib4300882208#461"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/RootViewController.nib /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/RootViewController.xib0#
+
+CCompileXIB /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocksViewController.xib
+s274085761.303915
+e274085761.688506
+r1
+xCompileXIB
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocksViewController.xib
+lSLF07#2@41"CompileXIB iPhoneBlocksViewController.xib274085761#274085761#0(0"0(0#0#72"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocksViewController.xib4300882208#477"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocksViewController.nib /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocksViewController.xib0#
+
+CGenerateDSYMFile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app.dSYM /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks
+s274149335.889116
+e274149335.937873
+r1
+xGenerateDSYMFile
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app.dSYM
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks
+lSLF07#2@124"GenerateDSYMFile build/Debug-iphonesimulator/iPhoneBlocks.app.dSYM build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks274149335#274149335#0(0"0(0#0#99"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks4300882208#407"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app.dSYM0#
+
+CLd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks normal i386
+s274149335.864363
+e274149335.889012
+r1
+xLd
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks
+xnormal
+xi386
+lSLF07#2@104"Link /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks274149335#274149335#0(0"0(0#0#0"4300882208#965"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -filelist /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/Objects-normal/i386/iPhoneBlocks.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework PLBlocks -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/iPhoneBlocks0#
+
+CPBXCp build/Debug-iphonesimulator/iPhoneBlocks.app/Frameworks/PLBlocks.framework PLBlocks.framework
+s274073339.065716
+e274073339.099907
+r1
+xPBXCp
+xbuild/Debug-iphonesimulator/iPhoneBlocks.app/Frameworks/PLBlocks.framework
+xPLBlocks.framework
+lSLF07#2@23"Copy PLBlocks.framework274073339#274073339#0(0"0(0#0#60"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/PLBlocks.framework4300882208#487"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/PLBlocks.framework /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/Frameworks0#
+
+CProcessInfoPlistFile /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/Info.plist iPhoneBlocks-Info.plist
+s274149334.277090
+e274149334.292919
+r1
+xProcessInfoPlistFile
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/Info.plist
+xiPhoneBlocks-Info.plist
+lSLF07#2@31"Process iPhoneBlocks-Info.plist274149334#274149334#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks-Info.plist4300882208#503"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility iPhoneBlocks-Info.plist -genpkginfo /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app/Info.plist0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-bccwwzygscckvwgqelwytsvfoqpl/iPhoneBlocks_Prefix.pch.gch iPhoneBlocks_Prefix.pch normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274046565.910353
+e274046566.628074
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-bccwwzygscckvwgqelwytsvfoqpl/iPhoneBlocks_Prefix.pch.gch
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274046565#274046566#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1873"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-bccwwzygscckvwgqelwytsvfoqpl/iPhoneBlocks_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cryrcirbmcduklbszhmuwcengwhm/iPhoneBlocks_Prefix.pch.gch iPhoneBlocks_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s274046549.704522
+e274046550.594606
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cryrcirbmcduklbszhmuwcengwhm/iPhoneBlocks_Prefix.pch.gch
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274046549#274046550#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1973"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cryrcirbmcduklbszhmuwcengwhm/iPhoneBlocks_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cvnnmyxlczfkqifccyplwmboqasg/iPhoneBlocks_Prefix.pch.pth iPhoneBlocks_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s274062995.519774
+e274062995.773546
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cvnnmyxlczfkqifccyplwmboqasg/iPhoneBlocks_Prefix.pch.pth
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274062995#274062995#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1919"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cvnnmyxlczfkqifccyplwmboqasg/iPhoneBlocks_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch.pth iPhoneBlocks_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s274132759.875403
+e274132760.810338
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch.pth
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274132759#274132760#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1918"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch.pth iPhoneBlocks_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s274064430.054885
+e274064430.332791
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch.pth
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274064430#274064430#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch5794214568475845632#1963"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-cwfayfmymfrdbbfxyyztpfzipdyv/iPhoneBlocks_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dcbzsypuwnwvptaslqwxpiljutqo/iPhoneBlocks_Prefix.pch.gch iPhoneBlocks_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s274073190.075715
+e274073191.142720
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dcbzsypuwnwvptaslqwxpiljutqo/iPhoneBlocks_Prefix.pch.gch
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274073190#274073191#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1927"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dcbzsypuwnwvptaslqwxpiljutqo/iPhoneBlocks_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-doxgqhdtwhjnefanpwjswpyjonni/iPhoneBlocks_Prefix.pch.gch iPhoneBlocks_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s274062535.960085
+e274062537.332148
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-doxgqhdtwhjnefanpwjswpyjonni/iPhoneBlocks_Prefix.pch.gch
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274062535#274062537#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1883"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-doxgqhdtwhjnefanpwjswpyjonni/iPhoneBlocks_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dsoppweyeyhfzmemickzedtcymwx/iPhoneBlocks_Prefix.pch.gch iPhoneBlocks_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s274062565.036117
+e274062566.826384
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dsoppweyeyhfzmemickzedtcymwx/iPhoneBlocks_Prefix.pch.gch
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274062565#274062566#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1982"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-dsoppweyeyhfzmemickzedtcymwx/iPhoneBlocks_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-fjtjkhdvzbvqspbyexflzsnrxveh/iPhoneBlocks_Prefix.pch.gch iPhoneBlocks_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s274042867.066996
+e274042869.102985
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-fjtjkhdvzbvqspbyexflzsnrxveh/iPhoneBlocks_Prefix.pch.gch
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274042867#274042869#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1874"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-fjtjkhdvzbvqspbyexflzsnrxveh/iPhoneBlocks_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-fkyaszbyfjjhhtfbphedwioqogqc/iPhoneBlocks_Prefix.pch.gch iPhoneBlocks_Prefix.pch normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274063442.195884
+e274063443.553269
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-fkyaszbyfjjhhtfbphedwioqogqc/iPhoneBlocks_Prefix.pch.gch
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274063442#274063443#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1882"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-fkyaszbyfjjhhtfbphedwioqogqc/iPhoneBlocks_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-gogeesvrstdblkceabdmnfagvrhd/iPhoneBlocks_Prefix.pch.pth iPhoneBlocks_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s274046512.608041
+e274046512.977567
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-gogeesvrstdblkceabdmnfagvrhd/iPhoneBlocks_Prefix.pch.pth
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274046512#274046512#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1910"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-gogeesvrstdblkceabdmnfagvrhd/iPhoneBlocks_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch.gch iPhoneBlocks_Prefix.pch normal i386 objective-c coop.plausible.blocks.compilers.gcc.4_2
+s274149334.840140
+e274149335.574903
+r1
+xProcessPCH
+x/var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch.gch
+xiPhoneBlocks_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcoop.plausible.blocks.compilers.gcc.4_2
+lSLF07#2@34"Precompile iPhoneBlocks_Prefix.pch274149334#274149335#0(0"0(0#0#65"/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch4300882208#1926"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PLBlocks/Compilers/gcc42-macosx10.5/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-generated-files.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-own-target-headers.hmap -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-all-target-headers.hmap -iquote /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/iPhoneBlocks-project-headers.hmap -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator -F/Users/vyach/Tinkering/Cocoa/iPhoneBlocks -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/include -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources/i386 -I/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/iPhoneBlocks.build/Debug-iphonesimulator/iPhoneBlocks.build/DerivedSources -fblocks -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/iPhoneBlocks_Prefix.pch -o /var/folders/R8/R8OlShOYG0uAzoYdmc5puU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/iPhoneBlocks_Prefix-guygozfrgaftyycwukmvgnceoomr/iPhoneBlocks_Prefix.pch.gch0#
+
+CTouch /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app
+s274149335.937960
+e274149335.941299
+r1
+xTouch
+x/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app
+lSLF07#2@92"Touch /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app274149335#274149335#0(0"0(0#0#0"4300882208#289"    cd /Users/vyach/Tinkering/Cocoa/iPhoneBlocks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vyach/Tinkering/Cocoa/iPhoneBlocks/build/Debug-iphonesimulator/iPhoneBlocks.app0#
+

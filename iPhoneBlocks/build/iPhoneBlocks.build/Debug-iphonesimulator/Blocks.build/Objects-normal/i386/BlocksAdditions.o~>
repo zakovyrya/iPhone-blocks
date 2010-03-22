@@ -1,0 +1,2 @@
+/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m:73: warning: incomplete implementation of category 'BlocksAdditions'
+/Users/vyach/Tinkering/Cocoa/iPhoneBlocks/Classes/BlocksAdditions.m:73: warning: method definition for '-addObserverForName:object:block:' not found
